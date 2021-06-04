@@ -1,0 +1,41 @@
+.row {
+  max-width: 1185px;
+  margin: 0 auto 0 auto;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.even-columns {
+  display: flex;
+}
+.even-columns > * {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-rev-col {
+  display: flex;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px) {
+  /*Reusable*/
+  .flex {
+    flex-direction: column;
+  }
+
+  .flex-rev-col {
+    flex-direction: column-reverse;
+  }
+}
