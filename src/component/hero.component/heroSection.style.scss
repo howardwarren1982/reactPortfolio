@@ -1,15 +1,19 @@
 .intro {
   height: 50vh;
-
   font-family: "Lucida Sans Unicode", "Lucida Sans", "Lucida Sans Regular",
     "Lucida Grande", " Geneva, Verdana", sans-serif;
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url(./laptop.png);
   background-position: center;
-  background-size: cover;
   color: #fff;
-
+  padding-top: 9%;
+  margin-bottom: 1rem;
   h1 {
-    font-size: 3em;
+    font-size: 4rem;
+  }
+
+  .about-me-par {
+    max-width: 25ch;
+    margin: 0 auto;
   }
 }

@@ -1,0 +1,33 @@
+$background-contact: #ffffff80;
+$text-color-contact: #28404c;
+
+.section-contact-me {
+  background-color: $background-contact;
+  color: $text-color-contact;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.section-contact-me a {
+  margin-left: 50px;
+}
+
+.contact-form {
+  max-width: 500px;
+}
+
+.contact-info ion-icon {
+  font-size: 300%;
+  margin-top: 50px;
+  transition: 0.3s;
+}
+
+.contact-info ion-icon:hover,
+.contact-info ion-icon:active {
+  transform: scale(1.2);
+}
+
+.contact-info h1 {
+  margin-top: 0px;
+  font-size: 3rem;
+}
