@@ -14,7 +14,7 @@ const ProjCard = ({
         <img className="card-image" src={picture} alt="" />
         {projectlocation ? (
           <a className="projectlink" href={projectlocation}>
-            See Project
+            See project
           </a>
         ) : null}
 

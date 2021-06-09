@@ -15,11 +15,15 @@
   a {
     display: inline-block;
     margin-bottom: 0.75rem;
-    background-color: rgb(81, 125, 167);
+    background-color: #001a16;
     color: #fff;
     margin-right: 2em;
     padding: 0.6em;
     border-radius: 5px;
+
+    &:hover {
+      background-color: #004d41;
+    }
   }
 }
 

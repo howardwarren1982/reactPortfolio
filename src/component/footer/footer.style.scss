@@ -1,11 +1,12 @@
-$background-contact: #ffffff80;
-$text-color-contact: #28404c;
+$background-contact: #f0f0f0;
+$text-color-contact: #000000;
 
 .section-contact-me {
   background-color: $background-contact;
   color: $text-color-contact;
   padding-top: 50px;
   padding-bottom: 25px;
+  margin-top: 2em;
 }
 
 .section-contact-me a {
