@@ -17,3 +17,14 @@
     margin: 0 auto;
   }
 }
+
+@media only screen and (max-width: 396px) {
+  .intro {
+    h1 {
+      font-size: 3rem;
+    }
+
+    .about-me-par {
+    }
+  }
+}

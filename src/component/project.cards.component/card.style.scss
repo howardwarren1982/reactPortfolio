@@ -1,5 +1,7 @@
 .project-card {
   margin: 1rem;
+  font-family: "Lucida Sans Unicode", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", " Geneva, Verdana", sans-serif;
 
   .card-image {
     width: 25rem;
@@ -11,18 +13,23 @@
 
 .projPicture {
   a {
-    display: block;
-    margin-bottom: 1rem;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    background-color: rgb(81, 125, 167);
+    color: #fff;
+    margin-right: 2em;
+    padding: 0.6em;
+    border-radius: 5px;
   }
 }
 
 .projCardText {
   h3 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   p {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     max-width: 50ch;
   }
 
@@ -35,5 +42,12 @@
   .card-image {
     width: 100% !important;
     height: auto !important;
+  }
+}
+
+@media only screen and (min-width: 1535px) {
+  .project-card {
+    display: flex;
+    gap: 2em;
   }
 }

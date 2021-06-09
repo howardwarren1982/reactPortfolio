@@ -1,29 +1,37 @@
-import React from "react";
+import React, { Children } from "react";
 import "./card.style.scss";
 
-const ProjCard = ({ picture }) => {
+const ProjCard = ({
+  picture,
+  children,
+  skills,
+  projectlocation,
+  projectcode,
+}) => {
   return (
     <div className="project-card">
       <div className="projPicture">
         <img className="card-image" src={picture} alt="" />
-        <a href="">See Project</a>
+        {projectlocation ? (
+          <a className="projectlink" href={projectlocation}>
+            See Project
+          </a>
+        ) : null}
+
+        {projectcode ? (
+          <a className="codelink" href={projectcode}>
+            See the code
+          </a>
+        ) : null}
       </div>
       <div className="projCardText">
         <h3>About This Project</h3>
-        <p>
-          Lorem {picture} ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure
-        </p>
+        <p>{children}</p>
         <h3>Skills Used</h3>
         <ul>
-          <li>skill 1</li>
-          <li>skill 1</li>
-          <li>skill 1</li>
-          <li>skill 1</li>
-          <li>skill 1</li>
-          <li>skill 1</li>
+          {skills.map((skill) => {
+            return <li>{skill}</li>;
+          })}
         </ul>
       </div>
     </div>
