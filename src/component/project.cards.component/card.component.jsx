@@ -13,13 +13,13 @@ const ProjCard = ({
       <div className="projPicture">
         <img className="card-image" src={picture} alt="" />
         {projectlocation ? (
-          <a className="projectlink" href={projectlocation}>
+          <a className="projectlink" href={projectlocation} target="_blank">
             See project
           </a>
         ) : null}
 
         {projectcode ? (
-          <a className="codelink" href={projectcode}>
+          <a className="codelink" href={projectcode} target="_blank">
             See the code
           </a>
         ) : null}

@@ -8,19 +8,31 @@ const Project1 = () => {
       <ProjCard
         picture={laptop}
         skills={[
-          "HTML/CSS - UI",
-          "JavaScript - asynchronous",
-          "fetch from api",
-          "pulling data from JSON",
-          "DOM manipulation",
+          "PSD to HTML, CSS and JS ",
+          "Adobe XD",
+          "SCSS",
+          "Flexbox",
+          "Pixel Perfect",
+          "Responsive",
         ]}
         projectlocation="test"
         projectcode="code"
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure
+        Translated a static design to HTML, CSS and JavaScript. <br /> The PSD
+        can be found:{" "}
+        <span>
+          {" "}
+          <a
+            href="https://www.behance.net/gallery/31522763/UNIQUE-TECH-Website-UI-Freebie-"
+            target="_blank"
+          >
+            Here
+          </a>{" "}
+        </span>
+        <br /> <br /> I paid great attention to detail in order to match the
+        design as closely as possable. Wrote the code with readability and reuse
+        in mind. I broke my scss up into compartmitilized files. Please click
+        the view the code link to see this. This project features a carousel.
       </ProjCard>
     </div>
   );

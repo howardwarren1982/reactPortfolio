@@ -6,8 +6,9 @@ const HeroSection = () => {
     <div className="intro center">
       <h1>Hello I'm Howard</h1>
       <p className="about-me-par">
-        I build responsive websites and web applications using HTML, CSS,
-        JavaScript and React <br /> Please look at my projects below
+        I build responsive websites and web applications using HTML, CSS and
+        JavaScript
+        <br /> Please look at my projects below
       </p>
     </div>
   );
