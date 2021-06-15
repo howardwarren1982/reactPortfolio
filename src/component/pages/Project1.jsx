@@ -30,9 +30,9 @@ const Project1 = () => {
           </a>{" "}
         </span>
         <br /> <br /> I paid great attention to detail in order to match the
-        design as closely as possable. Wrote the code with readability and reuse
+        design as closely as possible. Wrote the code with readability and reuse
         in mind. I broke my scss up into compartmitilized files. Please click
-        the view the code link to see this. This project features a carousel.
+        the "see the code" link to see this. This project features a carousel.
       </ProjCard>
     </div>
   );

@@ -5,7 +5,19 @@ import ProjCard from "../project.cards.component/card.component";
 const Project3 = () => {
   return (
     <div>
-      <ProjCard picture={landscape} skills={[]}>
+      <ProjCard
+        picture={landscape}
+        skills={[
+          "Asynchronous javascript ",
+          "Fetch data from api",
+          "DOM Manipulation",
+          "using JSON data",
+          "GIT version control",
+          "HTML and CSS",
+        ]}
+        projectlocation="test"
+        projectcode="code"
+      >
         {" "}
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

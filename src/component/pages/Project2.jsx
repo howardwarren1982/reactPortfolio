@@ -5,12 +5,32 @@ import ProjCard from "../project.cards.component/card.component";
 const Project2 = () => {
   return (
     <div>
-      <ProjCard picture={jsApp} skills={[]}>
-        {" "}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure
+      <ProjCard
+        picture={jsApp}
+        skills={[
+          "PSD to HTML, CSS and JS ",
+          "Adobe XD",
+          "Flexbox",
+          "Pixel Perfect",
+          "Responsive",
+        ]}
+        projectlocation="test"
+      >
+        Translated a static design to HTML, CSS and JavaScript. <br /> The PSD
+        can be found:{" "}
+        <span>
+          {" "}
+          <a
+            href="https://www.dropbox.com/s/ptddnyit4s5o6ky/WebSite.psd?dl=0"
+            target="_blank"
+          >
+            Here
+          </a>{" "}
+        </span>
+        <br /> <br /> This was a pixel perfect conversion. Wrote the code with
+        readability and reuse in mind. Used comments in the css for easy
+        reference. I did this project to keep my skills sharp in hand coding a
+        website from scratch
       </ProjCard>
     </div>
   );
