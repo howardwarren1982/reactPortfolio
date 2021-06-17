@@ -14,6 +14,7 @@ const Project1 = () => {
           "Flexbox",
           "Pixel Perfect",
           "Responsive",
+          "GIT",
         ]}
         projectlocation="test"
         projectcode="code"
@@ -31,8 +32,8 @@ const Project1 = () => {
         </span>
         <br /> <br /> I paid great attention to detail in order to match the
         design as closely as possible. Wrote the code with readability and reuse
-        in mind. I broke my scss up into compartmitilized files. Please click
-        the "see the code" link to see this. This project features a carousel.
+        in mind. I broke my scss up into compartmentalized files. Please click
+        the "see the code" link to view the source code.
       </ProjCard>
     </div>
   );

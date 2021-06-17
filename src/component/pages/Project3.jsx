@@ -8,7 +8,7 @@ const Project3 = () => {
       <ProjCard
         picture={landscape}
         skills={[
-          "Asynchronous javascript ",
+          "Asynchronous JavaScript ",
           "Fetch data from api",
           "DOM Manipulation",
           "using JSON data",
@@ -19,10 +19,10 @@ const Project3 = () => {
         projectcode="code"
       >
         {" "}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure
+        This app allows you to look up athletes. The api is found at
+        https://www.thesportsdb.com/. I did this project to get some practice
+        dealing with api calls. I created this app using fetch() and then() but
+        the code could be much easier to read using async and await.
       </ProjCard>
     </div>
   );

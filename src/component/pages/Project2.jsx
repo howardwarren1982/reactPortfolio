@@ -13,8 +13,10 @@ const Project2 = () => {
           "Flexbox",
           "Pixel Perfect",
           "Responsive",
+          "GIT",
         ]}
         projectlocation="test"
+        projectcode="code"
       >
         Translated a static design to HTML, CSS and JavaScript. <br /> The PSD
         can be found:{" "}
