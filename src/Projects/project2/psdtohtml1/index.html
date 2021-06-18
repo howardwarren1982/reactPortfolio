@@ -101,7 +101,17 @@
     </nav>
 
     <section class="section-banner center">
-      <img src="resources/img/Banner.jpg" alt="picture of laptop and books" />
+      <picture>
+        <source
+          media="(max-width:500px)"
+          srcset="resources/img/BannerMobile.jpg"
+        />
+        <img
+          src="resources/img/Banner.jpg"
+          alt="picture of laptop and books"
+          style="width: auto"
+        />
+      </picture>
     </section>
 
     <section class="section-who-we-are center">
