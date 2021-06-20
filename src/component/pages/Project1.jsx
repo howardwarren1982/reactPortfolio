@@ -16,8 +16,8 @@ const Project1 = () => {
           "Responsive",
           "GIT",
         ]}
-        projectlocation="test"
-        projectcode="code"
+        projectlocation="Projects/project1/Unique/index.html"
+        projectcode="https://github.com/howardwarren1982/UniqueTechSite"
       >
         Translated a static design to HTML, CSS and JavaScript. <br /> The PSD
         can be found:{" "}
