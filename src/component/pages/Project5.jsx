@@ -16,7 +16,7 @@ const Project5 = () => {
           "Flexbox",
           "GIT",
         ]}
-        projectlocation="Projects/project5/omnifoodContents/index_omni.html"
+        projectlocation="https://howardwarren1982.github.io/MainProjects/omnifoodContents/index_omni.html"
         projectcode="https://github.com/howardwarren1982/reactPortfolio/tree/master/public/Projects/project5/omnifoodContents"
       >
         {" "}

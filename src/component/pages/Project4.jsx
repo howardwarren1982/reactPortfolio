@@ -13,7 +13,7 @@ const Project4 = () => {
           "Animations",
           "Embedded map",
         ]}
-        projectlocation="Projects/project4/DavisLawnCareProject/index.html"
+        projectlocation="https://howardwarren1982.github.io/MainProjects/DavisLawnCareProject/index.html"
         projectcode="https://github.com/howardwarren1982/reactPortfolio/tree/master/public/Projects/project4/DavisLawnCareProject"
       >
         {" "}

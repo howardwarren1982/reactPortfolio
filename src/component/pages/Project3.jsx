@@ -15,7 +15,7 @@ const Project3 = () => {
           "GIT version control",
           "HTML and CSS",
         ]}
-        projectlocation="Projects/project3/SportsApp/SportsApp/index.html"
+        projectlocation="https://howardwarren1982.github.io/Projects/SportsApp/index.html"
         projectcode="https://github.com/howardwarren1982/reactPortfolio/tree/master/public/Projects/project3/SportsApp/SportsApp"
       >
         {" "}

@@ -19,7 +19,7 @@ function App() {
 
         <Switch>
           {" "}
-          <Route exact path="/" component={Project1} />
+          <Route exact path="/reactPortfolio" component={Project1} />
           <Route path="/proj2" component={Project2} />
           <Route path="/proj3" component={Project3} />
           <Route path="/proj4" component={Project4} />

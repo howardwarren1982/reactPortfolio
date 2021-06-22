@@ -15,7 +15,7 @@ const Project2 = () => {
           "Responsive",
           "GIT",
         ]}
-        projectlocation="Projects/project2/psdtohtml1/index.html"
+        projectlocation="https://howardwarren1982.github.io/Projects/psdtohtml1/index.html"
         projectcode="https://github.com/howardwarren1982/reactPortfolio/tree/master/public/Projects/project2/psdtohtml1"
       >
         Translated a static design to HTML, CSS and JavaScript. <br /> The PSD
