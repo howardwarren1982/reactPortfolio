@@ -1,12 +1,12 @@
 import React from "react";
-import unemploy from "./image/unemploy-min.png";
+import omnifood from "./image/omnifood.png";
 import ProjCard from "../project.cards.component/card.component";
 
 const Project5 = () => {
   return (
     <div>
       <ProjCard
-        picture={unemploy}
+        picture={omnifood}
         skills={[
           "jQuery",
           "HTML, CSS and JavaScript",
@@ -16,8 +16,8 @@ const Project5 = () => {
           "Flexbox",
           "GIT",
         ]}
-        projectlocation="test"
-        projectcode="code"
+        projectlocation="Projects/project5/omnifoodContents/index_omni.html"
+        projectcode="https://github.com/howardwarren1982/reactPortfolio/tree/master/public/Projects/project5/omnifoodContents"
       >
         {" "}
         This website was built for an online course. While doing this project I

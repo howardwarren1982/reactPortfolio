@@ -1,12 +1,12 @@
 import React from "react";
-import jsApp from "./image/jsApp.jpg";
+import psdtohtml from "./image/psdtohtml1.png";
 import ProjCard from "../project.cards.component/card.component";
 
 const Project2 = () => {
   return (
     <div>
       <ProjCard
-        picture={jsApp}
+        picture={psdtohtml}
         skills={[
           "PSD to HTML, CSS and JS ",
           "Adobe XD",
@@ -16,7 +16,7 @@ const Project2 = () => {
           "GIT",
         ]}
         projectlocation="Projects/project2/psdtohtml1/index.html"
-        projectcode="code"
+        projectcode="https://github.com/howardwarren1982/reactPortfolio/tree/master/public/Projects/project2/psdtohtml1"
       >
         Translated a static design to HTML, CSS and JavaScript. <br /> The PSD
         can be found:{" "}

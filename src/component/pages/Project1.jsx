@@ -1,12 +1,12 @@
 import React from "react";
-import laptop from "./image/laptop.png";
+import unique from "./image/uniqueTechPic.png";
 import ProjCard from "../project.cards.component/card.component";
 
 const Project1 = () => {
   return (
     <div>
       <ProjCard
-        picture={laptop}
+        picture={unique}
         skills={[
           "PSD to HTML, CSS and JS ",
           "Adobe XD",

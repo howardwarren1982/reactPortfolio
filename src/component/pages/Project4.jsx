@@ -1,20 +1,20 @@
 import React from "react";
-import omnifood from "./image/omnifoodmin.png";
+import landscape from "./image/Landscape.png";
 import ProjCard from "../project.cards.component/card.component";
 
 const Project4 = () => {
   return (
     <div>
       <ProjCard
-        picture={omnifood}
+        picture={landscape}
         skills={[
           "Design ",
           "HTML, CSS and JavaScript",
           "Animations",
           "Embedded map",
         ]}
-        projectlocation="test"
-        projectcode="code"
+        projectlocation="Projects/project4/DavisLawnCareProject/index.html"
+        projectcode="https://github.com/howardwarren1982/reactPortfolio/tree/master/public/Projects/project4/DavisLawnCareProject"
       >
         {" "}
         I started this project as a landscaping website for a friend. The

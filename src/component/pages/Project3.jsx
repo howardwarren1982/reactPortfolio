@@ -1,12 +1,12 @@
 import React from "react";
-import landscape from "./image/Landscape-min.png";
+import jsApp from "./image/JsApp.png";
 import ProjCard from "../project.cards.component/card.component";
 
 const Project3 = () => {
   return (
     <div>
       <ProjCard
-        picture={landscape}
+        picture={jsApp}
         skills={[
           "Asynchronous JavaScript ",
           "Fetch data from api",
@@ -15,8 +15,8 @@ const Project3 = () => {
           "GIT version control",
           "HTML and CSS",
         ]}
-        projectlocation="test"
-        projectcode="code"
+        projectlocation="Projects/project3/SportsApp/SportsApp/index.html"
+        projectcode="https://github.com/howardwarren1982/reactPortfolio/tree/master/public/Projects/project3/SportsApp/SportsApp"
       >
         {" "}
         This app allows you to look up athletes. The api is found at
