@@ -40,7 +40,7 @@ const playerContainer = document.querySelector('.sports-player-container');
 
 searchButton.addEventListener('click', function () {
   const player = getJSON(
-    `https://www.thesportsdb.com/api/v1/json/1/searchplayers.php?p=${serchRequest.value}`
+    `https://www.thesportsdb.com/api/v1/json/2/searchplayers.php?p=${serchRequest.value}`
   );
 
   player.then(data => {
